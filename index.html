@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="theme-color" content="#ff5c9a">
+
+  <title>Senin İçin ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+  <div class="hearts" aria-hidden="true"></div>
+  <div class="sparkles" aria-hidden="true"></div>
+
+
+  <div class="final-rain" id="finalRain"></div>
+
+
+  <main class="app">
+
+
+
+
+    <section class="screen hero active">
+
+      <div class="glow"></div>
+
+      <div class="tiny-label">
+        SANA ÖZEL BİR ŞEY VAR
+      </div>
+
+
+      <div class="heart-orbit">
+
+        <div class="orbit orbit1"></div>
+        <div class="orbit orbit2"></div>
+
+        <div class="big-heart">
+          ♥
+        </div>
+
+      </div>
+
+
+      <h1>
+        Senin Kadar Olmasada<br>
+        <em>tatlı bir sürpriz.</em>
+      </h1>
+
+
+      <p>
+        Hazırsan başlayalım...
+      </p>
+
+
+      <button class="primary" data-next="1">
+        Sürprizi Aç <span>♡</span>
+      </button>
+
+
+      <div class="swipe-hint"></div>
+
+    </section>
+
+
+
+   
+
+    <section class="screen">
+
+      <div class="number">
+        01
+      </div>
+
+
+      <div class="card intro-card">
+
+        <div class="card-heart">
+          ♡
+        </div>
+
+
+        <h2>
+          Bundan önce düzgün bir şey<br>
+          <em>yapmamış</em> olabilirim.
+        </h2>
+
+
+        <p>
+          İşte o yüzden şu an bu sürprize bakıyorsun.
+        </p>
+
+
+        <button class="round-btn" data-next="2">
+          →
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <section class="screen">
+
+      <div class="number">
+        02
+      </div>
+
+
+      <div class="memory-placeholder">
+
+        <div class="photo-frame">
+
+          <div class="photo-slider">
+
+            <img src="images/1.jpeg" alt="Anımız 1">
+
+            <img src="images/3.jpeg" alt="Anımız 2">
+
+            <img src="images/2.jpeg" alt="Anımız 3">
+
+          </div>
+
+
+          <div class="slider-dots">
+
+            <span class="dot active"></span>
+
+            <span class="dot"></span>
+
+            <span class="dot"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <h2 class="photo-title">
+        Bizim<br>
+        <em>güzel anlarımız...</em>
+      </h2>
+
+
+      <h2 class="photo-title">
+        Başlamadan bi daha görelim istedim.
+      </h2>
+
+
+      <button class="primary small" data-next="3">
+        Devam et ♥
+      </button>
+
+    </section>
+
+
+
+    
+
+    <section class="screen letter-screen">
+
+      <div class="number">
+        03
+      </div>
+
+
+      <div class="envelope-wrapper" id="envelopeWrapper">
+
+
+     
+
+        <div class="envelope" id="envelope">
+
+          <div class="envelope-back"></div>
+
+
+         
+
+          <div class="letter-paper">
+
+            <div class="letter-content">
+
+              <div class="letter-top">
+                ♡
+              </div>
+
+
+              <h2>
+                Söylemek istediklerim ise<br>
+                <em>şunlar.</em>
+              </h2>
+
+
+            
+
+              <div class="letter-text-wrapper">
+
+                <p id="typewriterText"></p>
+
+              </div>
+
+
+              <p class="signature" id="signature">
+                — Sevgilin ♡
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="envelope-front"></div>
+
+
+
+          <div class="envelope-flap"></div>
+
+
+          
+
+          <div class="envelope-heart">
+            ♥
+          </div>
+
+        </div>
+
+
+        <p class="envelope-hint" id="envelopeHint">
+          Mektubu açmak için dokun ❤️
+        </p>
+
+      </div>
+
+
+     
+
+      <button
+        class="primary small letter-next"
+        id="letterNext"
+        data-next="4">
+
+        Son bir şey... ❤️
+
+      </button>
+
+    </section>
+
+
+
+
+    <section class="screen final">
+
+      <div class="final-glow"></div>
+
+
+      <div class="final-heart">
+        ♥
+      </div>
+
+
+      <h2>
+        İyi ki<br>
+        <em>varsın.</em>
+      </h2>
+
+
+      <p>
+        Ve iyi ki o gün fikrini değişip yanıma geldin. ❤️
+      </p>
+
+
+      <div class="date">
+        SEN BANA BEN SANA öZELİM
+      </div>
+
+
+      <button class="replay" id="replay">
+        Başa sar ↻
+      </button>
+
+    </section>
+
+  </main>
+
+
+
+ 
+
+  <div class="music-control"
+       id="musicControl"
+       title="Müzik">
+
+    ♫
+
+  </div>
+
+
+  <audio id="music" loop preload="none">
+
+   
+
+  </audio>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
